@@ -52,6 +52,12 @@ function App() {
               <ErrorMessage name="password" />
             </div>
 
+            <div>
+              <label>Telefone</label>
+              <Field name="telefone" type="phone" />
+              <ErrorMessage name="telefone" />
+            </div>
+
             <button type="submit" disabled={!isValid}>Enviar</button>
 
           </Form>
